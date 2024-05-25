@@ -1,0 +1,5 @@
+venv/*
+# !venv/pyenv.cfg
+logs/*
+
+**__pycache__
