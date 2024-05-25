@@ -113,13 +113,3 @@ all_handler.setFormatter(file_format)
 logger.addHandler(console_handler)
 logger.addHandler(all_handler)
 ################
-
-def log():
-    logger.fatal("coucouuu")
-    logger.error("coucouuu")
-    logger.warning("coucouuu")
-    logger.info("coucouuu")
-    logger.debug("coucouuu")
-
-if __name__ == "__main__":
-    log()
