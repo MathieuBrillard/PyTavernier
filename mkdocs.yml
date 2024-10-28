@@ -1,0 +1,57 @@
+site_name: TavernierPy Doc
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+nav:
+  - Home: index.md
+  - Docs:
+    - Dev Doc:
+      - doc/dev_doc/dev_doc_index.md
+      - Commands:
+        - Flipcoin: doc/dev_doc/commands/flipcoin.md
+        - Help: doc/dev_doc/commands/help.md
+        - Leave: doc/dev_doc/commands/leave.md
+        - Loop: doc/dev_doc/commands/loop.md
+        - Pause: doc/dev_doc/commands/pause.md
+        - Pause: doc/dev_doc/commands/pause.md
+    - User Doc: doc/user_doc/user_doc_index.md
+  - About:
+    - License: about/license.md
+    - Patch Notes: about/patch_notes.md
+
+markdown_extensions:
+  - tables
+  - footnotes
+  - toc:
+      permalink: "#"
+      # baselevel: 2
+      # separator: "_"
