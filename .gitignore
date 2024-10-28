@@ -1,5 +1,8 @@
-venv/*
-# !venv/pyenv.cfg
-logs/*
+**/.vscode
+**/__pycache__
+**/*.log
 
-**__pycache__
+config/config.toml
+
+# TODO : delete theses
+config/*.json

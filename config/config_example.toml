@@ -1,0 +1,9 @@
+[DISCORD]
+prefix = ""
+client_id = ""
+guild_ids = [""]
+token = ""
+
+[SPOTIFY]
+spotify_id = ""
+spotify_secret = ""
